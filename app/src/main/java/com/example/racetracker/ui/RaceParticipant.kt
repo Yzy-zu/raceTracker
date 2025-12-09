@@ -25,7 +25,7 @@ import kotlinx.coroutines.delay
  */
 class RaceParticipant(
     val name: String,
-    val maxProgress: Int = 500,
+    val maxProgress: Int = 300,
     val progressDelayMillis: Long = 500L,
     private val progressIncrement: Int = 1,
     private val initialProgress: Int = 0
